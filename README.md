@@ -9,15 +9,15 @@ A simple 2D Unity application with three connected screens, built with Unity UI 
 <table>
   <tr>
     <td align="center" width="33%">
-      <img src="https://github.com/user-attachments/assets/0946f4d4-123d-4022-9e7f-702d03cdc8b2" width="280"/><br/>
+      <img src="https://github.com/user-attachments/assets/8a345177-e8f4-485a-90c5-6bbab12ab917" width="280"/><br/>
       <b>Welcome Screen</b>
     </td>
     <td align="center" width="33%">
-      <img src="https://github.com/user-attachments/assets/06a28387-6336-4822-a0bd-780724aa3cc2" width="280"/><br/>
+      <img src="https://github.com/user-attachments/assets/9d74d3c3-2e97-4e79-b250-740c6e2f09b3" width="280"/><br/>
       <b>Counter Screen</b>
     </td>
     <td align="center" width="33%">
-      <img src="https://github.com/user-attachments/assets/310a9b52-184d-4da5-8523-a49e76099234" width="280"/><br/>
+      <img src="https://github.com/user-attachments/assets/ca058ae9-1f87-4674-896e-58d6a59924e3" width="280"/><br/>
       <b>Congratulations Screen</b>
     </td>
   </tr>
