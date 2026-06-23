@@ -2,6 +2,29 @@
 
 A simple 2D Unity application with three connected screens, built with Unity UI and persistent data storage using PlayerPrefs.
 
+---
+
+## Screenshots
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <img src="https://github.com/user-attachments/assets/0946f4d4-123d-4022-9e7f-702d03cdc8b2" width="280"/><br/>
+      <b>Welcome Screen</b>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://github.com/user-attachments/assets/06a28387-6336-4822-a0bd-780724aa3cc2" width="280"/><br/>
+      <b>Counter Screen</b>
+    </td>
+    <td align="center" width="33%">
+      <img src="https://github.com/user-attachments/assets/310a9b52-184d-4da5-8523-a49e76099234" width="280"/><br/>
+      <b>Congratulations Screen</b>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## Overview
 
 A 3-screen flow: Welcome (name entry) → Counter (increment/decrement, persists, auto-advances at 10) → Congratulations (personalized message).
@@ -43,6 +66,6 @@ Assets/
 3. Press Play.
 4. To reset saved data and test as a new user, use **Edit → Clear All PlayerPrefs** in the Unity Editor menu.
 
-## Author
+---
 
-Shekh Mahdi Mesbah
+<p align="center">Built by <b>Shekh Mahdi Mesbah</b></p>
