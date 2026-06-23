@@ -21,6 +21,7 @@ public class UIManager : MonoBehaviour
 
     [Header("Congrats Screen")]
     public TextMeshProUGUI congratsText;
+    public Button restartButton;
 
     private int counterValue;
     private const string NAME_KEY = "PlayerName";
@@ -32,6 +33,7 @@ public class UIManager : MonoBehaviour
         continueButton.onClick.AddListener(OnContinueClicked);
         incrementButton.onClick.AddListener(OnIncrementClicked);
         decrementButton.onClick.AddListener(OnDecrementClicked);
+        restartButton.onClick.AddListener(OnRestartClicked);
 
         if (errorText != null) errorText.gameObject.SetActive(false);
 
@@ -78,6 +80,14 @@ public class UIManager : MonoBehaviour
     {
         counterValue--;
         SaveCounter();
+        UpdateCounterText();
+    }
+
+    void OnRestartClicked()
+    {
+        counterValue = 0;
+        SaveCounter();
+        ShowScreen(counterPanel);
         UpdateCounterText();
     }
 
